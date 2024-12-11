@@ -23,6 +23,9 @@ console.log(edad);
 
 console.log(arrayConocimientos);
 
+console.warn('-------------------------------- -------------------------------------------');
+
+
 /* Ejercicio n°2 */
 
 let marca = 'Chevrolet';
@@ -36,6 +39,9 @@ for (let i = 0; i < arrayModelos.length; i++) {
 
 }
 
+
+console.warn('---------------------------------------------------------------------------');
+
 /* Ejercicio n°3 */
 let velocidadCoche = 135;
 velocidadCoche = Number(velocidadCoche);
@@ -45,6 +51,8 @@ if (velocidadCoche>90) {
 } else {
     console.log('Vas dentro de la velocidad permitida, SIGUE ASI!!!')
 }
+
+console.warn('---------------------------------------------------------------------------');
 
 /* Ejercicio n°4 */
 
@@ -64,6 +72,8 @@ else {
     console.log('Tu sueldo es BAJO')
 }
 
+console.warn('---------------------------------------------------------------------------');
+
 /* Ejercicio n°5 */
 let fechaActual = 2024;
 fechaActual = Number(fechaActual);
@@ -76,6 +86,9 @@ edadUsuario = Number(edadUsuario);
 console.log(edadUsuario);
 alert(`Tu edad es: ${edadUsuario}`);
 
+
+console.warn('---------------------------------------------------------------------------');
+
 /* Ejercicio n°6 */
 
 function tablaDeMultiplicar() {
@@ -87,6 +100,8 @@ function tablaDeMultiplicar() {
 }
 console.log(tablaDeMultiplicar())
 
+
+console.warn('---------------------------------------------------------------------------');
 
 /* Ejercicio n°7 */
 function parOImpar(){
